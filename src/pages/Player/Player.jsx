@@ -46,7 +46,7 @@ const Player = () => {
         src={`https://youtube.com/embed/${videoData.key}`}
         width="90%"
         height="90%"
-        frameborder="0"
+        frameBorder="0"
         title="Trailor"
         allowFullScreen
       ></iframe>
