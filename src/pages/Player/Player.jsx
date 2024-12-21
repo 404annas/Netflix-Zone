@@ -18,8 +18,7 @@ const Player = () => {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MTE4MjE5NTAwMzEwOTZjYWYwYzg0NTgxMzJlNzk3YyIsIm5iZiI6MTczNDIxMjM3Ny43NDMsInN1YiI6IjY3NWRmYjE5ZGU4ZjM0ZTBiMjU4NWY4ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SX04fnnsFXOdpyPVxSb1tuS1C4pXiD5zfStBXhCRsYs",
+      Authorization: import.meta.env.VITE_TMDB_AUTH,
     },
   };
 
